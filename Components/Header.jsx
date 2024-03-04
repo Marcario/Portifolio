@@ -34,7 +34,7 @@ function Header() {
   }, []);
 
   return (
-    <div className=" bg-white h-20 w-full mx-auto px-8 flex items-center justify-between sticky top-0 z-30 ">
+    <div className=" bg-white py-4 w-full mx-auto px-8 flex items-center justify-between sticky top-0 z-30 ">
       {/* <Image src="/images/logo.png" width={100} height={100} /> */}
       <h2 className="text-black font-bold text-4xl">Personal Portifolio</h2>
       <div className="flex">

@@ -17,7 +17,7 @@ function Home() {
   };
   return (
     <div className=" bg-black text-white">
-      <div className="relative mt-28">
+      <div className="relative">
         <section>
           <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-6 text-center sm:text-left">
             <div>
@@ -85,10 +85,12 @@ function Home() {
           </div>
         </section>
       </div>
-      <AboutMe />
-      <Projects />
-      <Portfolio />
-      <Contact />
+      <div className="flex flex-col items-center justify-center">
+        <AboutMe />
+        <Projects />
+        <Portfolio />
+        <Contact />
+      </div>
     </div>
   );
 }

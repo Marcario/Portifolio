@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
 
-function Navbar() {
+function Header() {
   // Function to handle WhatsApp chat
   const handleWhatsAppChat = () => {
     window.open("https://wa.me/256789555054", "_blank");
@@ -84,4 +84,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;

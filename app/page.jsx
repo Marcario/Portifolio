@@ -2,7 +2,6 @@
 import AboutMe from "@/Components/AboutMe";
 import Contact from "@/Components/Contact";
 import Footer from "@/Components/Footer";
-import Header from "@/Components/Header";
 import Projects from "@/Components/Portifolio";
 import Technologies from "@/Components/Skills";
 import { Github, Instagram, Linkedin } from "lucide-react";
@@ -20,7 +19,6 @@ function Home() {
   };
   return (
     <div className=" bg-black text-white">
-      <Header />
       <div className="relative mt-28">
         <section>
           <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex flex-col sm:flex-row gap-6 text-center sm:text-left">
@@ -93,7 +91,6 @@ function Home() {
       <Projects />
       <Portfolio />
       <Contact />
-      <Footer />
     </div>
   );
 }

@@ -87,9 +87,9 @@ function Home() {
       </div>
       <div className="flex flex-col items-center justify-center">
         <AboutMe />
-        <Projects />
+        {/* <Projects />
         <Portfolio />
-        <Contact />
+        <Contact /> */}
       </div>
     </div>
   );

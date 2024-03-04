@@ -1,9 +1,7 @@
 "use client";
 import AboutMe from "@/Components/AboutMe";
 import Contact from "@/Components/Contact";
-import Footer from "@/Components/Footer";
 import Projects from "@/Components/Portifolio";
-import Technologies from "@/Components/Skills";
 import { Github, Instagram, Linkedin } from "lucide-react";
 import React from "react";
 import Portfolio from "@/Components/Skills";

@@ -1,5 +1,5 @@
-import { MessageCircle, Phone } from "lucide-react";
-import Image from "next/image";
+"use client";
+import { MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { useEffect } from "react";
 
